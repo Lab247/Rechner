@@ -1,0 +1,100 @@
+object frmMain: TfrmMain
+  Left = 621
+  Height = 240
+  Top = 72
+  Width = 320
+  Caption = 'Minirechner'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.6.0.4'
+  object edtWert1: TEdit
+    Left = 56
+    Height = 23
+    Top = 16
+    Width = 101
+    TabOrder = 0
+  end
+  object edtWert2: TEdit
+    Left = 56
+    Height = 23
+    Top = 48
+    Width = 103
+    TabOrder = 1
+  end
+  object lblWert1: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 31
+    Caption = 'Wert1'
+    ParentColor = False
+  end
+  object lblWert2: TLabel
+    Left = 16
+    Height = 15
+    Top = 49
+    Width = 31
+    Caption = 'Wert2'
+    ParentColor = False
+  end
+  object edtErgebnis: TEdit
+    Left = 202
+    Height = 23
+    Top = 48
+    Width = 93
+    TabOrder = 2
+  end
+  object lblErgebnis: TLabel
+    Left = 202
+    Height = 15
+    Top = 32
+    Width = 45
+    Caption = 'Ergebnis'
+    ParentColor = False
+  end
+  object btnAddition: TButton
+    Left = 55
+    Height = 30
+    Top = 90
+    Width = 30
+    Caption = '+'
+    OnClick = btnAdditionClick
+    TabOrder = 3
+  end
+  object btnSubtraktion: TButton
+    Left = 90
+    Height = 30
+    Top = 90
+    Width = 30
+    Caption = '-'
+    OnClick = btnSubtraktionClick
+    TabOrder = 4
+  end
+  object btnMultiplikation: TButton
+    Left = 125
+    Height = 30
+    Top = 90
+    Width = 30
+    Caption = '*'
+    OnClick = btnMultiplikationClick
+    TabOrder = 5
+  end
+  object btnDivision: TButton
+    Left = 160
+    Height = 30
+    Top = 90
+    Width = 30
+    Caption = '/'
+    OnClick = btnDivisionClick
+    TabOrder = 6
+  end
+  object btnClose: TButton
+    Left = 220
+    Height = 24
+    Top = 202
+    Width = 84
+    Caption = 'Beenden'
+    OnClick = btnCloseClick
+    TabOrder = 7
+  end
+end
